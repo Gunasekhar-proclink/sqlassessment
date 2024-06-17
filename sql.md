@@ -51,6 +51,9 @@ VALUES
     (2, 'Jane', 'Smith', 'janesmith@example.com', '987-654-3210', '456 Elm St'),
     (3, 'Bob', 'Johnson', 'bobjohnson@example.com', '555-555-5555', '789 Oak St');
 
+
+![](./assessment/first.png)
+
 -- Insert data into the Products table
 INSERT INTO Products (ProductID, ProductName, Description, Price)
 VALUES
@@ -174,3 +177,10 @@ WHERE CustomerID IN (
     SELECT CustomerID
     FROM Orders
 );
+
+![](./assessment/second.png)
+![](./assessment/fourth.png)
+![](./assessment/fifth.png)
+![](./assessment/sixth.png)
+![](./assessment/seventh.png)
+![](./assessment/all.png)
